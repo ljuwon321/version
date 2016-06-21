@@ -1,0 +1,202 @@
+{
+  "oldversion": [
+    {
+      "changelog": [
+        "출시"
+      ],
+      "version": "1.0",
+      "version-code": 1
+    },
+    {
+      "changelog": [
+        "밴추가"
+      ],
+      "version": "2.0",
+      "version-code": 2
+    },
+    {
+      "changelog": [
+        "명령어 밴 [ban, ban-ip,banlist,pardon, pardon-ip] ( 옵션 밴 삭제 )",
+        "통신사 IP 차단 기능 추가",
+        "kick 추가",
+        "getip 명령어 추가",
+        "기타버그수정"
+      ],
+      "version": "2.1",
+      "version-code": 3
+    },
+    {
+      "changelog": [
+        "b11 업데이트"
+      ],
+      "version": "2.2",
+      "version-code": 4
+    },
+    {
+      "changelog": [
+        "플레이어가 접속할때 팅기는점 수정",
+        "이름 공백 들어오지 못하게 수정",
+        "/banlist 명령어 수정"
+      ],
+      "version": "2.2.1",
+      "version-code": 5
+    },
+    {
+      "changelog": [
+        "/banlist 수정",
+        "/gamemode 추가",
+        "/getip 삭제",
+        "/whitelist 추가",
+        "이제 파일이 따로 나뉨 (서버매니저, 밴, ip밴, 화이트리스트 따로)",
+        "많은 버그 수정"
+      ],
+      "version": "3.0",
+      "version-code": 6
+    },
+    {
+      "changelog": [
+        "0.12.1 정식",
+        "/pardon, /pardon-ip 명령어 저장 안되는점 수정"
+      ],
+      "version": "3.1",
+      "version-code": 7
+    },
+    {
+      "changelog": [
+        "0.13.0 정식",
+        "/kick 메시지 오류 수정"
+      ],
+      "version": "3.2",
+      "version-code": 8
+    },
+    {
+      "changelog": [
+        "/gamemode 자신만 바뀌는 오류 수정",
+        "/kick, /ban, /banip 메시지 오류 수정",
+        "도배, 챗핵(ChatHack) 방지 추가",
+        "/pardon-ip 해제가 안되는 버그 수정",
+        "Show ip 메시지 수정 (아이피 일부 숨김)",
+        "전체 시스템 수정",
+        "/help, /tell, /list, /op, /deop  명령어 추가",
+        "서버원 명령어 가능 (현재는 오피만)",
+        "언어 번역은 이제 서버원의 언어로 변경됩니다.",
+        "옵션의 whitelist 제거 (명령어 사용)"
+      ],
+      "version": "4.0",
+      "version-code": 9
+    },
+    {
+      "changelog": [
+        "/list 이름이 뜨지 않는 버그 수정"
+      ],
+      "version": "4.0.1",
+      "version-code": 10
+    },
+    {
+      "changelog": [
+        "/time, /tp, /kill, /give, /me 명령어 추가",
+        "이제 섭장의 이름으로 들어 올 수 없습니다.",
+        "Show ip 기능이 다시 아이피 전체가 보입니다.",
+        "종료할 때 비정상적으로 종료되는 점 수정",
+        " 명령어에 숫자를 음수로 입력할 수 없었던 점 수정"
+      ],
+      "version": "4.1",
+      "version-code": 11
+    },
+    {
+      "changelog": [
+        "플레이어가 접속하기전에 게임을 나가면 충돌하는 버그 수정"
+      ],
+      "version": "4.1.1",
+      "version-code": 12
+    },
+    {
+      "changelog": [
+        "플러그인 지원과 그에 따른 시스템 변경",
+        "0.13.1 지원",
+        "마인크래프트내 설정 제거",
+        "데이터 차단 제거",
+        "명령어 입력 변경 (ex \"/help\" -> \" /help\")",
+        "데이터 폴더 변경 (데이터 옮겨주세요)",
+        "많은 버그 수정"
+      ],
+      "version": "4.2",
+      "version-code": 13
+    },
+    {
+      "changelog": [
+        "플러그인이 비정상 로드되는 버그 수정",
+        "서버 인원이 변경되지 않는 버그 수정",
+        "플레이어가 나갈때 메시지가 출력되지 않는 버그 수정"
+      ],
+      "version": "4.2.1",
+      "version-code": 14
+    },
+    {
+      "changelog": [
+        "명령어 입력 변경 (ex \" /help\" -> \"#help\")",
+        "플러그인 이벤트가 삭제되지 않는 점 수정",
+        "밴할때 크래쉬나는 버그 수정",
+        "이름 버그 수정",
+        "플러그인 버전 검사 추가",
+        "kick, ban-ip 플레이어가 없을 때 오류 발생 수정"
+      ],
+      "version": "4.2.2",
+      "version-code": 15
+    },
+    {
+      "changelog": [
+        "플러그인 버전 검사 버그 수정",
+        "플러그인 이벤트 추가",
+        "/give 명령어 오류 수정",
+        "앱 추가"
+      ],
+      "version": "4.2.3-Test",
+      "version-code": 16
+    },
+    {
+      "changelog": [
+        "[앱] 버그 리포트 추가",
+        "[앱] 변경사항 확인 추가",
+        "[앱] 업데이트 확인 기능 추가",
+        "[앱] 사용 방법 추가"
+      ],
+      "version": "4.2.3-Test1",
+      "version-code": 17
+    }
+  ],
+  "changelog": [
+    "앱 추가",
+    "/give 명령어 오류 수정",
+    "플러그인 이벤트 추가",
+    "플러그인 버전 검사 버그 수정",
+    "[플러그인] 채팅시 이벤트 취소하면 기록이 남는 문제 수정",
+    "[플러그인] isOp에 서버를 연 사람이 포함됨",
+    "[앱] 화이트리스트, PVP가 저장이 안되는 버그 수정",
+    "[앱] 버그 리포트 추가",
+    "[앱] 변경사항 확인 추가",
+    "[앱] 업데이트 확인 기능 추가",
+    "[앱] 사용 방법 추가"
+  ],
+  "version": "4.2.3",
+  "version-code": 18,
+  "howtouse": [
+    {
+      "name": "1. 명령어 사용법",
+      "content": [
+        "명령어는 #로 시작하며, #help를 통해 모든 명령어를 볼 수 있습니다.",
+        "예시1: [#op KsyMC] => KsyMC에게 오피를 준다.",
+        "예시2: [#tp KsyMC ~10 ~50 ~10] => KsyMC를 현재 있는 곳에서 10, 50, 10만큼 이동시킨다."
+      ]
+    },
+    {
+      "name": "2. 플러그인 적용법",
+      "content": [
+        "플러그인 적용은 플러그인 개발자마다 다르며, 다음은 기본적인 설치법입니다.",
+        "1. apk파일을 설치한다.",
+        "2. 다른 파일들은 games/com.mojang/minecraftpe/servermanager/plugins/ 폴더에 플러그인 이름으로 폴더를 생성하고, 그 안에 파일들을 넣는다.",
+        "3. 완료."
+      ]
+    }
+  ]
+}
