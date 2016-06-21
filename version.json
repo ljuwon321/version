@@ -2,15 +2,15 @@
   "oldversion": [
     {
       "changelog": [
-        "차단"
+        "출시"
       ],
-      "version": "1.1",
-      "version-code": 2
+      "version": "1.0",
+      "version-code": 1
     }
   ],
   "changelog": [
     "차단 테스트"
   ],
-  "version": "1.2",
-  "version-code": 3
+  "version": "1.0",
+  "version-code": 1
 }
